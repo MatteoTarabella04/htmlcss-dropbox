@@ -69,6 +69,10 @@ img {
     height: 300px;
 }
 
+.debug #sec-questions {
+    height: 500px;
+}
+
 .debug .container,
 .container-sm {
     background-color: coral;
@@ -173,7 +177,8 @@ main #sec-main, #sec-try {
 main #sec-plans,
 #sec-partner,
 #sec-buisness,
-#sec-info-teams {
+#sec-info-teams,
+#sec-questions {
     margin-bottom: 2rem;
 }
 
