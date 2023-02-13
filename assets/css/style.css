@@ -24,6 +24,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* #region debug */
 .debug header {
     border: 2px solid black;
@@ -43,17 +47,16 @@ body {
     height: 1000px;
 }
 
-.debug #sec-main .container {
-    background-color: green;
+.debug #sec-partner {
+    height: 500px;
+}
+
+.debug .container,.container-sm {
+    background-color: coral;
     height: 100%;
 }
 
-.debug #sec-plans .container-sm {
-    background-color: green;
-    height: 100%;
-}
-
-.debug .card-plane{
+.debug .card-plane, .picture, .description {
     background-color: paleturquoise;
 }
 
@@ -87,7 +90,11 @@ body {
 }
 
 .col-12 {
-    width: calc(100% / 12 *12);
+    width: calc(100% / 12 * 12);
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
 }
 
 
@@ -113,6 +120,10 @@ body {
 
 main #sec-main {
     background-color: var(--db-section-sky);
+    margin-bottom: 5rem;
+}
+main #sec-plans, #sec-partner {
+    margin-bottom: 2rem;
 }
 
 .container-sm h2 {
@@ -125,6 +136,9 @@ main #sec-main {
 }
 
 
+.description {
+    margin: 3rem 2rem 0 3rem;
+}
 /* #endregion app-main */
 
 
