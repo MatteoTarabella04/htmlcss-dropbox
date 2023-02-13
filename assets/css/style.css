@@ -65,6 +65,10 @@ img {
     background-color: lightslategray;
 }
 
+.debug #sec-try {
+    height: 300px;
+}
+
 .debug .container,
 .container-sm {
     background-color: coral;
@@ -161,7 +165,7 @@ img {
 
 /* #region app-main */
 
-main #sec-main {
+main #sec-main, #sec-try {
     background-color: var(--db-section-sky);
     margin-bottom: 5rem;
 }
@@ -169,8 +173,7 @@ main #sec-main {
 main #sec-plans,
 #sec-partner,
 #sec-buisness,
-#sec-info-teams,
-#sec-teams {
+#sec-info-teams {
     margin-bottom: 2rem;
 }
 
