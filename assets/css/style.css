@@ -51,13 +51,25 @@ img {
     height: 500px;
 }
 
+.debug #sec-buisness {
+    height: 600px;
+}
+
 .debug .container,.container-sm {
     background-color: coral;
     height: 100%;
 }
 
-.debug .card-plane, .picture, .description {
+.debug .card-plane, .card-buisness, .card-picture, .card-description {
     background-color: paleturquoise;
+}
+
+.debug [class^="col"] {
+    border: 1px solid black;
+}
+
+.debug [class^="card"] {
+    height: 150px;
 }
 
 
@@ -135,8 +147,7 @@ main #sec-plans, #sec-partner {
     margin: 1rem;
 }
 
-
-.description {
+.card-description {
     margin: 3rem 2rem 0 3rem;
 }
 /* #endregion app-main */
