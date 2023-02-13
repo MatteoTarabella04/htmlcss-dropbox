@@ -231,6 +231,13 @@ main #sec-plans,
     justify-content: space-evenly;
 }
 
+.foot-line {
+    margin-top: 4rem;
+    border: none;
+    height: 1px;
+    width: 10%;
+    background-color: var(--db-teams-sec);
+}
 
 
 /* #endregion app-footer */
