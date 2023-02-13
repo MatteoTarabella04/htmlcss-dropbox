@@ -28,6 +28,10 @@ img {
     max-width: 100%;
 }
 
+footer {
+    background-color: var(--db-black);
+}
+
 /* #region debug */
 .debug header {
     border: 2px solid black;
@@ -83,6 +87,18 @@ img {
     height: 200px;
 }
 
+.debug #foot-top .container {
+    height: 400px;
+}
+
+.debug #foot-top .row {
+    height: 400px;
+}
+
+.debug footer {
+    height: 600px;
+}
+
 .debug .card-plane,
 .card-buisness,
 .card-picture,
@@ -102,7 +118,7 @@ img {
     height: 500px;
 }
 
-.debug #sec-teams .col-6{
+.debug #sec-teams .col-6 {
     height: 250px;
     background-color: paleturquoise;
 }
@@ -148,6 +164,12 @@ img {
     width: calc(100% / 12 * 6);
 }
 
+.col-2 {
+    width: calc(100% / 12 * 2);
+    margin-top: 4rem;
+    padding: 0.5rem;
+}
+
 
 /* #endregion utilities */
 
@@ -169,7 +191,8 @@ img {
 
 /* #region app-main */
 
-main #sec-main, #sec-try {
+main #sec-main,
+#sec-try {
     background-color: var(--db-section-sky);
     margin-bottom: 5rem;
 }
@@ -201,3 +224,13 @@ main #sec-plans,
 }
 
 /* #endregion app-main */
+
+/* #region app-footer */
+
+#foot-top .row {
+    justify-content: space-evenly;
+}
+
+
+
+/* #endregion app-footer */
