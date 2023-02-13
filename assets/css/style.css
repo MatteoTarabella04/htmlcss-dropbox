@@ -32,13 +32,21 @@ footer {
     background-color: var(--db-black);
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 /* #region debug */
 .debug header {
     border: 2px solid black;
 }
 
-.debug .logo-section,
-.log {
+.debug .logo-section
+.login {
     background-color: orange;
     border: 1px solid black;
     width: 50%;
@@ -77,7 +85,7 @@ footer {
     height: 500px;
 }
 
-.debug .container,
+.debug .container
 .container-sm {
     background-color: coral;
     height: 100%;
@@ -99,9 +107,9 @@ footer {
     height: 600px;
 }
 
-.debug .card-plane,
-.card-buisness,
-.card-picture,
+.debug .card-plane
+.card-buisness
+.card-picture
 .card-description {
     background-color: paleturquoise;
 }
@@ -170,6 +178,13 @@ footer {
     padding: 0.5rem;
 }
 
+.btn {
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: var(--db-blue-btn);
+    color: var(--db-white);
+}
+
 
 /* #endregion utilities */
 
@@ -182,10 +197,34 @@ footer {
 
 #navbar {
     height: 100%;
+    padding: 0 1rem;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem;
 }
+
+.nav-right .nav-left {
+    width: 50%;
+}
+
+.nav-list {
+    display: inline;
+}
+
+.nav-list li {
+    padding: 0 1.5rem;
+    display: inline;
+}
+
+.nav-list li:first-child {
+    padding-left: 2rem;
+}
+
+.nav-list a {
+    color: var(--db-black);
+}
+
+
+
 
 /* #endregion app-header */
 
