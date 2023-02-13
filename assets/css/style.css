@@ -1,0 +1,37 @@
+:root {
+    --db-blue-btn: #0061ff;
+    --db-section-sky: #b4d0e7;
+    --db-black: #000000;
+    --db-white: #ffffff;
+    --db-teams-sec: #f5f5f5;
+    --db-teams-lighter-red: #ff1c1c;
+    --db-teams-light-red: #d5001f;
+    --db-tams-lighter-green: #d1e9cd;
+    --db-teams-light-green: #a2d39b;
+    --db-teams-brown-red: #61082b;
+    --db-teams-light-blue: #0093ce;
+    --db-teams-dark-blue: #0d2481;
+    --db-teams-yellow: #ffd830;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* #region utilities */
+
+.flex {
+    display: flex;
+}
+
+.container {
+    max-width: 1152px;
+    width: 70%;
+    margin: auto;
+}
