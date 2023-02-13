@@ -34,6 +34,19 @@ body {
     border: 1px solid black;
     width: 50%;
 }
+
+.debug #sec-main {
+    height: 600px;
+}
+
+.debug #sec-main .container {
+    background-color: green;
+    height: 100%;
+    width: 100%;
+}
+
+/* #endregion debug */
+
 /* #region utilities */
 
 .flex {
@@ -45,6 +58,17 @@ body {
     width: 70%;
     margin: auto;
 }
+
+.container-sm {
+    width: 65%;
+    margin: auto;
+}
+
+main #sec-main {
+    background-color: var(--db-section-sky);
+}
+
+/* #endregion utilities */
 
 /* #region app-header */
 
@@ -59,5 +83,16 @@ body {
     align-items: center;
     padding: 0 1rem;
 }
+
+/* #endregion app-header */
+
+/* #region app-main */
+
+
+
+
+/* #endregion app-main */
+
+
 
 
