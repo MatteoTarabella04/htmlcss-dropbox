@@ -27,6 +27,7 @@ body {
 
 img {
     max-width: 100%;
+    padding: 1rem;
 }
 
 footer {
@@ -194,6 +195,13 @@ a {
     padding: 0.5rem 1rem;
     background-color: var(--db-blue-btn);
     color: var(--db-white);
+}
+
+.btn2 {
+    border: 1px solid var(--db-black);
+    padding: 0.5rem 1rem;
+    background-color: var(--db-white);
+    color: var(--db-black);
 }
 
 .mt-2 {
@@ -404,6 +412,17 @@ main #sec-plans,
 
 #sec-plans .col-12 .container-plans {
     max-width: 1080px;
+}
+
+#sec-partner p {
+    font-size: 15px;
+    padding: 0.5rem;
+}
+
+#sec-partner button:hover {
+    background-color: var(--db-grey);
+    color: var(--db-white);
+    cursor: pointer;
 }
 
 
