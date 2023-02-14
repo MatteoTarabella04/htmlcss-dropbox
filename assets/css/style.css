@@ -12,6 +12,7 @@
     --db-teams-light-blue: #0093ce;
     --db-teams-dark-blue: #0d2481;
     --db-teams-yellow: #ffd830;
+    --db-grey: #a0a0a0;
 }
 
 * {
@@ -147,6 +148,7 @@ a {
 .row {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -1rem;
 }
 
 .container {
@@ -157,6 +159,11 @@ a {
 
 .container-sm {
     width: 60%;
+    margin: auto;
+}
+
+.container-plans {
+    max-width: 250px;
     margin: auto;
 }
 
@@ -188,6 +195,43 @@ a {
     background-color: var(--db-blue-btn);
     color: var(--db-white);
 }
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mb-3 {
+    margin-bottom: 3rem;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.p-05 {
+    padding: 0.5rem;
+}
+
+.px-1 {
+    padding: 0 1rem;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
 
 
 /* #endregion utilities */
@@ -242,7 +286,7 @@ a {
 main #sec-main,
 #sec-try {
     background-color: var(--db-section-sky);
-    margin-bottom: 5rem;
+    margin-bottom: 150px;
 }
 
 main #sec-plans,
@@ -257,10 +301,6 @@ main #sec-plans,
     padding: 0.5rem;
 }
 
-.card-plane {
-    padding: 0.5rem;
-    margin: 1rem;
-}
 
 .card-description {
     margin: 3rem 2rem 0 3rem;
@@ -293,8 +333,80 @@ main #sec-plans,
 
 .jumbo {
     position: absolute;
-    max-width: 50%;
+    max-width: 45%;
 }
+
+#sec-plans h2 {
+    font-size: 40px;
+    margin-bottom: 3rem;
+}
+
+#sec-plans .container-sm label {
+    margin: 0 1rem;
+}
+
+.card-plane {
+    border: 1px solid var(--db-grey);
+    min-height: 100%;
+}
+
+.plane-top {
+    border-bottom: 1px solid var(--db-grey);
+    text-align: center;
+    font-size: 15px;
+    padding: 0.5rem 0;
+    
+}
+
+.price {
+    font-weight: 600;
+    font-size: small;
+}
+
+.period{
+    font-size: small;
+    color: var(--db-grey);
+}
+
+.container-plans i {
+    font-size: small;
+}
+
+.p-buy button {
+    width: 100%;
+}
+
+.p-buy a {
+    text-decoration: underline;
+    color: var(--db-blue-btn);
+}
+
+.p-line {
+    border: none;
+    height: 1px;
+    margin: 1rem 0;
+    width: 20%;
+    background-color: var(--db-grey);
+    opacity: 1px;
+}
+
+.p-point {
+    font-size: small;
+}
+
+.p-point i {
+    color: var(--db-blue-btn);
+}
+
+.card-plane li {
+    padding: 0.5rem 0;
+}
+
+#sec-plans .col-12 .container-plans {
+    max-width: 1080px;
+}
+
+
 
 /* #endregion app-main */
 
