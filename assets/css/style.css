@@ -42,8 +42,14 @@ a {
     text-decoration: none;
 }
 
+svg {
+    fill: var(--db-white);
+    max-width: 50%;
+    min-height: 100%;
+}
+
 /* #region debug */
-.debug header {
+/* .debug header {
     border: 2px solid black;
 }
 
@@ -136,7 +142,7 @@ a {
 .debug #sec-teams .teams-desc {
     background-color: coral;
 }
-
+ */
 
 /* #endregion debug */
 
@@ -229,6 +235,10 @@ a {
 
 .px-1 {
     padding: 0 1rem;
+}
+
+.mx-2 {
+    margin: 0 2rem;
 }
 
 .w-70 {
@@ -410,11 +420,46 @@ main #sec-plans,
     cursor: pointer;
 }
 
+
 .find {
     text-decoration: underline;
     color: var(--db-blue-btn);
 }
 
+
+.t-1 {
+    border: 10px solid var(--db-tams-lighter-green);
+    text-align: center;
+    background-color: var(--db-teams-light-green);
+}
+.t-2 {
+    text-align: center;
+    background-color: var(--db-teams-brown-red);
+}
+.t-3 {
+
+    background-color: var(--db-teams-light-blue);
+}
+.t-4 {
+    text-align: center;
+    background-color: var(--db-teams-lighter-red);
+}
+.t-5 {
+    text-align: center;
+    background-color: var(--db-teams-light-red);
+}
+.t-6 {
+    text-align: center;
+    background-color: var(--db-section-sky);
+}
+.t-7 {
+    text-align: center;
+    background-color: var(--db-teams-dark-blue);
+}
+.t-8 {
+    text-align: center;
+    background-color: var(--db-teams-yellow);
+}
 
 
 
