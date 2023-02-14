@@ -290,6 +290,11 @@ main #sec-plans,
     margin-bottom: 2rem;
 }
 
+#sec-plans h2, #sec-buisness h2, #sec-info-teams h2 {
+    font-size: 40px;
+    margin-bottom: 3rem;
+}
+
 .container-sm h2 {
     padding: 0.5rem;
 }
@@ -327,11 +332,6 @@ main #sec-plans,
 .jumbo {
     position: absolute;
     max-width: 45%;
-}
-
-#sec-plans h2, #sec-buisness h2 {
-    font-size: 40px;
-    margin-bottom: 3rem;
 }
 
 #sec-plans .container-sm label {
@@ -408,6 +408,11 @@ main #sec-plans,
     background-color: var(--db-grey);
     color: var(--db-white);
     cursor: pointer;
+}
+
+.find {
+    text-decoration: underline;
+    color: var(--db-blue-btn);
 }
 
 
