@@ -154,12 +154,11 @@ a {
 
 .container {
     max-width: 1152px;
-    width: 70%;
     margin: auto;
 }
 
 .container-sm {
-    width: 60%;
+    width: 1000px;
     margin: auto;
 }
 
@@ -260,31 +259,17 @@ a {
     height: 100%;
     padding: 0 1rem;
     justify-content: space-between;
+}
+
+.nav-right, .nav-left {
+    gap: 2rem;
     align-items: center;
+    
 }
 
-.nav-right .nav-left {
-    width: 50%;
-}
-
-.nav-list {
-    display: inline;
-}
-
-.nav-list li {
-    padding: 0 1.5rem;
-    display: inline;
-}
-
-.nav-list li:first-child {
-    padding-left: 2rem;
-}
-
-.nav-list a {
+#navbar a {
     color: var(--db-black);
-}
-
-
+} 
 
 
 /* #endregion app-header */
@@ -344,7 +329,7 @@ main #sec-plans,
     max-width: 45%;
 }
 
-#sec-plans h2 {
+#sec-plans h2, #sec-buisness h2 {
     font-size: 40px;
     margin-bottom: 3rem;
 }
@@ -424,6 +409,7 @@ main #sec-plans,
     color: var(--db-white);
     cursor: pointer;
 }
+
 
 
 
