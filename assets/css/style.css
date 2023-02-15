@@ -277,7 +277,7 @@ main #sec-plans,
 }
 
 #foot-top .row {
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 /* /id */
 
@@ -576,6 +576,7 @@ main #sec-main,
 
 #foot-top {
     color: var(--db-white);
+    margin-bottom: 5rem;
 }
 
 .foot-list {
@@ -583,6 +584,11 @@ main #sec-main,
     flex-direction: column;
     gap: 0.5rem;
     font-size: 15px;
+}
+
+.lang {
+    color: var(--db-grey);
+    padding: 3rem 0;
 }
 
 /* .foot-line {
