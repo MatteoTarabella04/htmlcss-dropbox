@@ -48,7 +48,7 @@ svg {
 }
 
 /* #region debug */
-/* .debug header {
+.debug header {
     border: 2px solid black;
 }
 
@@ -141,7 +141,7 @@ svg {
 .debug #sec-teams .teams-desc {
     background-color: coral;
 }
- */
+
 
 /* #endregion debug */
 
@@ -157,6 +157,11 @@ svg {
     margin: 0 -1rem;
 }
 
+.row--m {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .container {
     max-width: 1152px;
     margin: auto;
@@ -165,6 +170,10 @@ svg {
 .container-sm {
     width: 1000px;
     margin: auto;
+}
+
+.sec-container {
+    width: 100vw;
 }
 
 .jumbo {
@@ -228,6 +237,12 @@ ul.plans-list li {
     align-items: baseline;
 }
 
+.find {
+    text-decoration: underline;
+    color: var(--db-blue-btn);
+}
+
+/* margin/padding */
 .mt-2 {
     margin-top: 2rem;
 }
@@ -439,53 +454,31 @@ main #sec-plans,
     cursor: pointer;
 }
 
+/* teams logos */
 
-.find {
-    text-decoration: underline;
-    color: var(--db-blue-btn);
+.logo {
+    text-align: center;
+    height: 275px;
+    width: 275px;
 }
 
-
-.t-1 {
-    border: 10px solid var(--db-tams-lighter-green);
-    text-align: center;
+.tm-1 {
     background-color: var(--db-teams-light-green);
+    border: 1rem solid var(--db-tams-lighter-green);
 }
-
-.t-2 {
-    text-align: center;
+.tm-2 {
     background-color: var(--db-teams-brown-red);
 }
-
-.t-3 {
-
+.tm-3 {
     background-color: var(--db-teams-light-blue);
 }
-
-.t-4 {
-    text-align: center;
+.tm-4 {
     background-color: var(--db-teams-lighter-red);
 }
 
-.t-5 {
-    text-align: center;
-    background-color: var(--db-teams-light-red);
-}
 
-.t-6 {
-    text-align: center;
-    background-color: var(--db-section-sky);
-}
 
-.t-7 {
-    text-align: center;
-    background-color: var(--db-teams-dark-blue);
-}
 
-.t-8 {
-    text-align: center;
-    background-color: var(--db-teams-yellow);
-}
 
 
 
