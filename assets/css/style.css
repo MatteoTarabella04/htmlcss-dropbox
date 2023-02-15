@@ -230,6 +230,13 @@ svg {
     color: var(--db-black);
 }
 
+.btn3 {
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: var(--db-white);
+    color: var(--db-black);
+}
+
 .plane-bottom {
     padding: 0 2rem;
     padding-top: 3rem;
@@ -250,7 +257,7 @@ ul.plans-list li {
     color: var(--db-blue-btn);
 }
 
-/* margin/padding */
+/* margin/padding/width */
 .mt-2 {
     margin-top: 2rem;
 }
@@ -290,6 +297,10 @@ ul.plans-list li {
 
 .w-70 {
     width: 70%;
+}
+
+.w-50 {
+    width: 50%;
 }
 
 .w-30 {
@@ -350,7 +361,8 @@ main #sec-plans,
 
 #sec-plans h2,
 #sec-buisness h2,
-#sec-info-teams h2 {
+#sec-info-teams h2,
+#sec-try h2 {
     font-size: 40px;
     margin-bottom: 3rem;
 }
@@ -510,8 +522,20 @@ main #sec-plans,
     background-color: var(--db-teams-yellow);
 }
 
+/* /teams */
 
+.colored-h2 {
+    color: var(--db-teams-brown-red);
+}
 
+#sec-try {
+    padding: 5rem;
+}
+
+#sec-try .container-sm {
+    justify-content: space-between;
+    align-items: baseline;
+}
 
 
 
