@@ -493,9 +493,21 @@ main #sec-plans,
     padding: 2.5rem;
 }
 
-
 .logo-desc svg{
     fill: var(--db-black);
+}
+
+.tm-5 {
+    background-color: var(--db-teams-light-red);
+}
+.tm-6 {
+    background-color: var(--db-section-sky);
+}
+.tm-7 {
+    background-color: var(--db-teams-dark-blue);
+}
+.tm-8 {
+    background-color: var(--db-teams-yellow);
 }
 
 
