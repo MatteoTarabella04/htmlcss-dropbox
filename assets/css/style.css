@@ -27,7 +27,6 @@ body {
 
 img {
     max-width: 100%;
-    padding: 1rem;
 }
 
 footer {
@@ -168,9 +167,9 @@ svg {
     margin: auto;
 }
 
-.container-plans {
-    max-width: 250px;
-    margin: auto;
+.jumbo {
+    position: absolute;
+    max-width: 45%;
 }
 
 .col-4 {
@@ -202,11 +201,31 @@ svg {
     color: var(--db-white);
 }
 
+.btn-plans {
+    width: 100%;
+    text-align: center;
+}
+
 .btn2 {
     border: 1px solid var(--db-black);
     padding: 0.5rem 1rem;
     background-color: var(--db-white);
     color: var(--db-black);
+}
+
+.plane-bottom {
+    padding: 0 2rem;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+ul.plans-list li {
+    display: flex;
+    gap: 0.25rem;
+    font-size: 15px;
+    align-items: baseline;
 }
 
 .mt-2 {
@@ -227,6 +246,11 @@ svg {
 
 .p-1 {
     padding: 1rem;
+}
+
+.plt-1 {
+    padding-left: 1rem;
+    padding-top: 1rem;
 }
 
 .p-05 {
@@ -271,15 +295,16 @@ svg {
     justify-content: space-between;
 }
 
-.nav-right, .nav-left {
+.nav-right,
+.nav-left {
     gap: 2rem;
     align-items: center;
-    
+
 }
 
 #navbar a {
     color: var(--db-black);
-} 
+}
 
 
 /* #endregion app-header */
@@ -300,7 +325,9 @@ main #sec-plans,
     margin-bottom: 2rem;
 }
 
-#sec-plans h2, #sec-buisness h2, #sec-info-teams h2 {
+#sec-plans h2,
+#sec-buisness h2,
+#sec-info-teams h2 {
     font-size: 40px;
     margin-bottom: 3rem;
 }
@@ -339,10 +366,6 @@ main #sec-plans,
     color: var(--db-black);
 }
 
-.jumbo {
-    position: absolute;
-    max-width: 45%;
-}
 
 #sec-plans .container-sm label {
     margin: 0 1rem;
@@ -358,7 +381,7 @@ main #sec-plans,
     text-align: center;
     font-size: 15px;
     padding: 0.5rem 0;
-    
+
 }
 
 .price {
@@ -366,17 +389,13 @@ main #sec-plans,
     font-size: small;
 }
 
-.period{
+.period {
     font-size: small;
     color: var(--db-grey);
 }
 
-.container-plans i {
+.plane-bottom i {
     font-size: small;
-}
-
-.p-buy button {
-    width: 100%;
 }
 
 .p-buy a {
@@ -432,30 +451,37 @@ main #sec-plans,
     text-align: center;
     background-color: var(--db-teams-light-green);
 }
+
 .t-2 {
     text-align: center;
     background-color: var(--db-teams-brown-red);
 }
+
 .t-3 {
 
     background-color: var(--db-teams-light-blue);
 }
+
 .t-4 {
     text-align: center;
     background-color: var(--db-teams-lighter-red);
 }
+
 .t-5 {
     text-align: center;
     background-color: var(--db-teams-light-red);
 }
+
 .t-6 {
     text-align: center;
     background-color: var(--db-section-sky);
 }
+
 .t-7 {
     text-align: center;
     background-color: var(--db-teams-dark-blue);
 }
+
 .t-8 {
     text-align: center;
     background-color: var(--db-teams-yellow);
