@@ -41,6 +41,14 @@ a {
     text-decoration: none;
 }
 
+hr {
+    border: none;
+    height: 1px;
+    width: 100px;
+    background-color: var(--db-grey);
+    
+}
+
 svg {
     fill: var(--db-white);
     max-width: 50%;
@@ -475,6 +483,21 @@ main #sec-plans,
 .tm-4 {
     background-color: var(--db-teams-lighter-red);
 }
+
+#teams-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    background-color: var(--db-teams-sec);
+    padding: 2.5rem;
+}
+
+
+.logo-desc svg{
+    fill: var(--db-black);
+}
+
 
 
 
