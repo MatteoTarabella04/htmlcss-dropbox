@@ -450,15 +450,6 @@ main #sec-main,
     color: var(--db-blue-btn);
 }
 
-.p-line {
-    border: none;
-    height: 1px;
-    margin: 1rem 0;
-    width: 20%;
-    background-color: var(--db-grey);
-    opacity: 1px;
-}
-
 .p-point {
     font-size: small;
 }
@@ -471,8 +462,18 @@ main #sec-main,
     padding: 0.5rem 0;
 }
 
-#sec-plans .col-12 .container-plans {
-    max-width: 1080px;
+#sec-plans .col-12 .p-info {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.col-12 .plane-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.col-12 .p-info p {
+    padding: 2rem 0;
 }
 
 #sec-partner p {
@@ -490,8 +491,7 @@ main #sec-main,
 
 .logo {
     text-align: center;
-    height: 275px;
-    width: 275px;
+    height: 300px;
 }
 
 .tm-1 {
