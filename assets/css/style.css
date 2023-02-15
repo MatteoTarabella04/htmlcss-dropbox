@@ -257,6 +257,25 @@ ul.plans-list li {
     color: var(--db-blue-btn);
 }
 
+/* id */
+main #sec-plans,
+#sec-partner,
+#sec-buisness,
+#sec-info-teams,
+#sec-questions {
+    margin-bottom: 2rem;
+}
+
+#sec-plans h2,
+#sec-buisness h2,
+#sec-info-teams h2,
+#sec-try h2,
+#sec-questions h2 {
+    font-size: 40px;
+    margin-bottom: 3rem;
+}
+/* /id */
+
 /* margin/padding/width */
 .mt-2 {
     margin-top: 2rem;
@@ -349,22 +368,6 @@ main #sec-main,
 #sec-try {
     background-color: var(--db-section-sky);
     margin-bottom: 150px;
-}
-
-main #sec-plans,
-#sec-partner,
-#sec-buisness,
-#sec-info-teams,
-#sec-questions {
-    margin-bottom: 2rem;
-}
-
-#sec-plans h2,
-#sec-buisness h2,
-#sec-info-teams h2,
-#sec-try h2 {
-    font-size: 40px;
-    margin-bottom: 3rem;
 }
 
 .container-sm h2 {
@@ -537,6 +540,23 @@ main #sec-plans,
     align-items: baseline;
 }
 
+#sec-questions {
+    margin-bottom: 10rem;
+}
+
+#sec-questions .container-sm {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#sec-questions hr {
+    width: 100%;
+}
+
+.quest {
+    justify-content: space-between;
+    padding: 2rem 2rem 2rem 0;
+}
 
 
 
