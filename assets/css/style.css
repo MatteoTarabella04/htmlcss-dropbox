@@ -253,6 +253,10 @@ ul.plans-list li {
     align-items: baseline;
 }
 
+.card-picture img {
+    padding: 1rem;
+}
+
 .find {
     text-decoration: underline;
     color: var(--db-blue-btn);
