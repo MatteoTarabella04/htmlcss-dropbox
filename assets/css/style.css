@@ -359,6 +359,8 @@ main #sec-plans,
     height: 100%;
     padding: 0 1rem;
     justify-content: space-between;
+
+    box-shadow: 1px 1px 10px;
 }
 
 .nav-right,
@@ -371,6 +373,20 @@ main #sec-plans,
 #navbar a {
     color: var(--db-black);
 }
+
+/* animations */
+
+#navbar a:hover {
+    text-shadow:0 0 5px var(--db-blue-btn);
+    color: var(--db-white);
+}
+
+#navbar button.btn:hover {
+    cursor: pointer;
+    background-color: var(--db-teams-dark-blue);
+}
+
+/* /animations */
 
 
 /* #endregion app-header */
@@ -416,6 +432,20 @@ main #sec-main,
     margin: 2rem 0;
     color: var(--db-black);
 }
+
+/* animations */
+
+#sec-main button.btn:hover {
+    cursor: pointer;
+    background-color: var(--db-teams-dark-blue);
+}
+
+#sec-main i:hover {
+    cursor: pointer;
+    color: var(--db-white);
+}
+
+/* /animations */
 
 
 #sec-plans .container-sm label {
@@ -479,6 +509,15 @@ main #sec-main,
 .col-12 .p-info p {
     padding: 2rem 0;
 }
+
+/* animations */
+
+#sec-plans button.btn:hover {
+    cursor: pointer;
+    background-color: var(--db-teams-dark-blue);
+}
+
+/* /animations */
 
 #sec-partner p {
     font-size: 15px;
@@ -553,6 +592,15 @@ main #sec-main,
     align-items: baseline;
 }
 
+/* animations */
+
+#sec-try button:hover {
+    cursor: pointer;
+    border: 1px solid var(--db-teams-light-blue);
+}
+
+/* /animations */
+
 #sec-questions {
     margin-bottom: 10rem;
 }
@@ -567,9 +615,22 @@ main #sec-main,
 }
 
 .quest {
+    position: relative;
+    justify-content: space-between;
+    padding: 2rem 2rem 2rem 0;
+    z-index: 1;
+}
+
+.quest-hidden {
+    display: none;
     justify-content: space-between;
     padding: 2rem 2rem 2rem 0;
 }
+
+/* animations */
+
+
+/* animations */
 
 
 
